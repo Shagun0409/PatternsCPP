@@ -7,12 +7,12 @@ int n;
 
 cin>>n;
 
- int i=0;
-    while(i<n){
+ int i=1;
+    while(i<=n){
         int j=1;
-        while(j<i){
+        while(j<=i){
 
-            ch='A'+i+1;
+            ch='A'+j-1;
         
         
             cout<<ch;
